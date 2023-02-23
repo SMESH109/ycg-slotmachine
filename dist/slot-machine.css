@@ -11,9 +11,8 @@
   z-index: 2;
 }
 .slot-machine .display .reel {
-  background: transparent;
   border: 4px solid #3bb4b4;
-  border-radius: 20px;
+  border-radius: 4px;
   cursor: pointer;
   height: calc(100% - 103px);
   margin: 47px 10px;
