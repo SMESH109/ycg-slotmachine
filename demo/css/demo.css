@@ -18,6 +18,9 @@ body {
   width: 100px;
   border-radius: 4px;
   border: none;
-  color: black;
+  color: white;
   background-color: #3bb4b4;
+  font-weight: bold;
+  font-family: Roboto, Arial, sans-serif;
+  /*font-size: 150%;*/
 }
