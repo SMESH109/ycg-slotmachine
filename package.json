@@ -1,6 +1,6 @@
 {
-  "name": "slot-machine-gen",
-  "version": "1.2.2",
+  "name": "ycg-slotmachine",
+  "version": "1.2.3",
   "description": "Create an extremely biased, web-based slot machine game.",
   "main": "src/slot-machine.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuxy/slot-machine-gen.git"
+    "url": "git+https://github.com/smesh109/ycg-slotmachine.git"
   },
   "keywords": [
     "javascript",
@@ -24,9 +24,9 @@
     "games"
   ],
   "bugs": {
-    "url": "https://github.com/nuxy/slot-machine-gen/issues"
+    "url": "https://github.com/smesh109/ycg-slotmachine/issues"
   },
-  "homepage": "https://github.com/nuxy/slot-machine-gen#readme",
+  "homepage": "https://github.com/smesh109/ycg-slotmachine#readme",
   "author": "Marc S. Brooks <devel@mbrooks.info> (https://mbrooks.info)",
   "license": "MIT",
   "devDependencies": {
