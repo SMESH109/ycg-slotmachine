@@ -1,9 +1,23 @@
+body {
+  /*align-content: center;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*justify-items: center;*/
+  /*background-color: #f1f8f9;*/
+}
+
 #slot-machine {
   margin: 10% auto 0 auto;
+  /*background-color: #f1f8f9;*/
 }
 
 #play-button {
   display: block;
   margin: 0 auto;
+  height: 50px;
   width: 100px;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  background-color: #3bb4b4;
 }
