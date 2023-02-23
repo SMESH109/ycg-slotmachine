@@ -2,7 +2,7 @@
 
 Create an extremely biased, web-based slot machine game.
 
-![Preview](https://raw.githubusercontent.com/nuxy/slot-machine-gen/master/package.png)
+![Preview](https://raw.githubusercontent.com/smesh109/ycg-slotmachine/master/package.png)
 
 ## Features
 
