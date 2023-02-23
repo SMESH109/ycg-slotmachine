@@ -1,4 +1,4 @@
-# Slot Machine Generator [![npm version](https://badge.fury.io/js/slot-machine-gen.svg)](https://badge.fury.io/js/slot-machine-gen) [![](https://img.shields.io/npm/dm/slot-machine-gen)](https://www.npmjs.com/package/slot-machine-gen)
+# YouCodeGirls Slot Machine
 
 Create an extremely biased, web-based slot machine game.
 
@@ -13,7 +13,7 @@ Create an extremely biased, web-based slot machine game.
 - Configurable sound clips for reel animations.
 - Easy to set-up and customize.
 
-Checkout the [demo](https://nuxy.github.io/slot-machine-gen) for examples of use.
+Checkout the [demo](https://smesh109.github.io/ycg-slotmachine/demo/) for examples of use.
 
 ## Dependencies
 
@@ -21,13 +21,15 @@ Checkout the [demo](https://nuxy.github.io/slot-machine-gen) for examples of use
 
 ## Installation
 
-Install the package into your project using [NPM](https://npmjs.com), or download the [sources](https://github.com/nuxy/slot-machine-gen/archive/master.zip).
+Install the original forked package into your project using [NPM](https://npmjs.com)
 
     $ npm install slot-machine-gen
 
+or download the [YouCodeGirls adjusted sources](https://github.com/SMESH109/ycg-slotmachine/archive/master.zip).
+
 ### Alternative
 
-To add to an existing [React](https://reactjs.org) or [Vue](https://vuejs.org) project you can install this package using [YARN](https://yarnpkg.com).
+To add to an existing [React](https://reactjs.org) or [Vue](https://vuejs.org) project you can install the original forked package using [YARN](https://yarnpkg.com).
 
 #### React
 
@@ -54,7 +56,7 @@ After you [build the distribution sources](#cli-options) the set-up is fairly si
 </script>
 ```
 
-### Module import
+### Original forked module import
 
 If your using a modern framework like [Aurelia](https://aurelia.io), [Angular](https://angular.io), [React](https://reactjs.org), or [Vue](https://vuejs.org)
 
@@ -160,7 +162,7 @@ var callback = function(symbols) {
 
 ## Customizing symbols
 
-Creating a custom strip is fairly easy. What is most important is that each symbol, whether an image or blank space, contains a vertical `position` that can be measured by calculating the symbol center (in pixels) from the strip top. A [Photoshop example](https://raw.githubusercontent.com/nuxy/slot-machine-gen/master/images/reel-strip.psd) has been provided with this package for reference.
+Creating a custom strip is fairly easy. What is most important is that each symbol, whether an image or blank space, contains a vertical `position` that can be measured by calculating the symbol center (in pixels) from the strip top. A [Photoshop example](https://github.com/SMESH109/ycg-slotmachine/blob/master/images/original/reel-strip.psd) has been provided with the original forked package for reference.
 
 ## Developers
 
@@ -178,10 +180,6 @@ Transpile ES6 sources (using [Babel](https://babeljs.io)) and minify to a distri
 
 If you fix a bug, or have a code you want to contribute, please send a pull-request with your changes. (Note: Before committing your code please ensure that you are following the [Node.js style guide](https://github.com/felixge/node-style-guide))
 
-## Versioning
-
-This package is maintained under the [Semantic Versioning](https://semver.org) guidelines.
-
 ## License and Warranty
 
 This package is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
@@ -190,4 +188,5 @@ _slot-machine-gen_ is provided under the terms of the [MIT license](http://www.o
 
 ## Author
 
-[Marc S. Brooks](https://github.com/nuxy)
+[Marc S. Brooks](https://github.com/nuxy)  
+forked for [YouCodeGirls](https://youcodegirls.de/) by [SMESH](https://github.com/smesh109)
