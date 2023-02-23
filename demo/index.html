@@ -26,7 +26,7 @@
             {
               title: 'plum',
               position: 300,
-              weight: 5
+              weight: 2
             },
             {
               title: 'orange',
@@ -36,7 +36,7 @@
             {
               title: 'bell',
               position: 700,
-              weight: 5
+              weight: 3
             },
             {
               title: 'cherry',
@@ -46,7 +46,7 @@
             {
               title: 'plum',
               position: 1100,
-              weight: 5
+              weight: 3
             }
           ]
         },
@@ -61,7 +61,7 @@
             {
               title: 'plum',
               position: 300,
-              weight: 5
+              weight: 2
             },
             {
               title: 'orange',
@@ -71,7 +71,7 @@
             {
               title: 'plum',
               position: 700,
-              weight: 5
+              weight: 2
             },
             {
               title: 'cherry',
@@ -81,7 +81,7 @@
             {
               title: 'bell',
               position: 1100,
-              weight: 5
+              weight: 2
             }
           ]
         },
@@ -91,22 +91,22 @@
             {
               title: 'cherry',
               position: 100,
-              weight: 50
+              weight: 2
             },
             {
               title: 'bell',
               position: 300,
-              weight: 5
+              weight: 3
             },
             {
               title: 'orange',
               position: 500,
-              weight: 5
+              weight: 2
             },
             {
               title: 'plum',
               position: 700,
-              weight: 5
+              weight: 3
             },
             {
               title: 'plum',
@@ -116,7 +116,7 @@
             {
               title: 'cherry',
               position: 1100,
-              weight: 5
+              weight: 3
             }
           ]
         }
@@ -124,11 +124,11 @@
 
       window.onload = function() {
         const callback = function(payLine) {
-          // console.log(payLine[0].title + ' | ' + payLine[1].title + ' | ' + payLine[2].title);
+          console.log(payLine[0].title + ' | ' + payLine[1].title + ' | ' + payLine[2].title);
 
-          if (payLine[0].title === payLine[1].title && payLine[0].title === payLine[2].title) {
-            (new Audio('sounds/winner.mp3')).play();
-          }
+          // if (payLine[0].title === payLine[1].title && payLine[0].title === payLine[2].title) {
+          //   (new Audio('sounds/winner.mp3')).play();
+          // }
         };
 
         let machine = document.getElementById('slot-machine');
